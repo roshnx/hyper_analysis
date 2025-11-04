@@ -1,0 +1,7 @@
+boto3>=1.28
+lz4>=4.3
+pandas>=2.0
+pyarrow>=16.0
+tqdm>=4.66
+web3>=6.11
+tenacity>=8.2

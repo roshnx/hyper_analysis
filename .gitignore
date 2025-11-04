@@ -1,0 +1,39 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/outputs/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Environment/config
+.env
+.env.*
+
+# Large/raw market data (keep small curated CSVs in pool_data)
+data/market_data/
+
+# Exclude nested example repos / SDKs
+hyperswap_labs/how-tos-v3/
+
+# Misc
+*.log
